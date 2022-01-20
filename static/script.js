@@ -1,15 +1,9 @@
-let button = document.querySelector("button")
-let p = document.querySelector("p")
-let count = 0;
-button.addEventListener('click', function(){
-    count++
-
-    p.innerText = count.toString()
-
-    
-
+let lol = document.querySelector(".l")
+let lo = document.querySelector(".lo")
+let l = document.querySelector("dialog")
+lol.addEventListener("click", function(){
+    l.show()
 })
-
-
-
-
+lo.addEventListener("click", function(){
+    l.close()
+})
